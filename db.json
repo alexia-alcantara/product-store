@@ -1,14 +1,6 @@
 {
   "products": [
     {
-      "title": "Alex2",
-      "id": "1"
-    },
-    {
-      "isTrusted": true,
-      "id": "5fb0"
-    },
-    {
       "id": "ee4a",
       "title": "John"
     },
@@ -27,10 +19,6 @@
     {
       "id": "02fb",
       "title": "óculos"
-    },
-    {
-      "id": "27fb",
-      "title": "Novo produto"
     }
   ]
 }
