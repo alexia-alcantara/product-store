@@ -21,8 +21,9 @@ import { filter } from 'rxjs/operators';
   styleUrl: './list.component.scss'
 })
 export class ListComponent {
-
-  products = signal<Product[]>(inject(ActivatedRoute).snapshot.data['products']) ;
+  products = signal<Product[]>(
+    inject(ActivatedRoute).snapshot.data['products']
+  ) ;
 
   productService = inject(ProductsService);
   router = inject(Router);
