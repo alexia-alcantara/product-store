@@ -1,20 +1,12 @@
 {
   "products": [
     {
-      "id": "ee4a",
-      "title": "John"
-    },
-    {
       "id": "ce03",
       "title": "Alexia"
     },
     {
       "id": "1b0c",
       "title": "Computador"
-    },
-    {
-      "id": "57c2",
-      "title": "camiseta"
     }
   ]
 }
