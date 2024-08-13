@@ -1,3 +1,12 @@
 {
-  "products": []
+  "products": [
+    {
+      "id": "bfe0",
+      "title": "Televisão 50 polegadas"
+    },
+    {
+      "title": "MacBook 1TB",
+      "id": "f37d"
+    }
+  ]
 }
