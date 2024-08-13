@@ -1,16 +1,3 @@
 {
-  "products": [
-    {
-      "id": "ce03",
-      "title": "Alexia"
-    },
-    {
-      "id": "1b0c",
-      "title": "Computador"
-    },
-    {
-      "id": "179e",
-      "title": "Produto de teste"
-    }
-  ]
+  "products": []
 }

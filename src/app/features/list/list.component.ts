@@ -6,6 +6,7 @@ import { ActivatedRoute, Router, RouterLink } from '@angular/router';
 import { MatButtonModule } from '@angular/material/button';
 import { ConfirmDialogService } from '../../shared/services/confirm-dialog.service';
 import { filter } from 'rxjs/operators';
+import { NoItemsComponent } from './components/no-items/no-items.component';
 
 
 
@@ -15,7 +16,8 @@ import { filter } from 'rxjs/operators';
   imports: [
     CardComponent,
     RouterLink,
-    MatButtonModule
+    MatButtonModule,
+    NoItemsComponent
   ],
   templateUrl: './list.component.html',
   styleUrl: './list.component.scss'
