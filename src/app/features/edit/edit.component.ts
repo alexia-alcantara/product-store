@@ -15,7 +15,7 @@ import { FormComponent } from '../../shared/components/form/form.component';
   styleUrl: './edit.component.scss'
 })
 export class EditComponent {
-  productService = inject(ProductsService);
+  productsService = inject(ProductsService);
   matSnackBar = inject(MatSnackBar);
   router = inject(Router);
 
@@ -23,7 +23,8 @@ export class EditComponent {
 
 
   onSubmit(product: Product){
-    this.productService.put(this.product.id, product)
+    this.productsService
+    .put(this.product.id, product)
     .subscribe(()=> {
       this.matSnackBar.open('Produto editado com sucesso!', 'Ok', {
       });

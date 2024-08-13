@@ -19,7 +19,7 @@ export const routes: Routes = [
     {
         path: 'edit-product/:id',
         resolve: {
-            getProduct,
+            product: getProduct,
         },
 
         loadComponent: () => import('./features/edit/edit.component').then(m => m.EditComponent)
